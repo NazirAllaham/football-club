@@ -1,0 +1,179 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font: normal 14px 'Cocon';
+}
+
+.logo {
+    height: 64px;
+}
+
+#announcement-bar {
+    position: relative;
+    height: 1.6em;
+    overflow: hidden;
+}
+
+#announcement-message {
+    position: absolute;
+    left: 0;
+    animation: announcement_moving 25s infinite linear;
+}
+
+@keyframes announcement_moving {
+    from {
+        left: 0vw;
+    }
+    to {
+        left: 100vw;
+    }
+}
+
+#footer-sponsers
+{
+    min-height: 64px;
+    position: relative;
+   
+}
+
+#footer-sponsers > hr 
+{
+}
+
+#footer-logo
+{
+    position: relative;
+    left: 50%;
+    top: -48px;
+}
+
+.sponser {
+    margin: auto 6px;
+}
+
+.link {
+    color: #aaa;
+    margin: auto 8px;
+}
+
+.link:hover {
+    color: #666;
+}
+
+/* Styling of posts in index.view.php*/
+.post 
+{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #999;
+    margin: 0;
+}
+
+.post-large
+{
+}
+
+.post-small
+{
+}
+
+.post-header 
+{
+    width: 100%;
+}
+.post-header:hover
+{
+    opacity: .5;
+}
+
+.post-body 
+{
+    padding: 8px 24px;
+}
+
+.post-title
+{
+    color: #222;
+}
+
+.post-text
+{
+    color: #888;
+    line-height: 16px;
+    height: 35px;
+    display:flex;
+    overflow: hidden;
+    transition: all 10s ease-in-out;
+}
+
+.post-footer
+{
+    margin-bottom: 2px;
+}
+
+.share 
+{
+    color: #666;
+    border: 1px solid #666;
+}
+
+.share-facebook:hover
+{
+    color: #3B5998;
+    border-color: #3B5998;
+}
+
+.share-twitter:hover
+{
+    color: #00aced;
+    border-color: #00aced;
+}
+
+.player 
+{
+    transition: all .3s linear;
+    background: linear-gradient(#999, white);
+}
+
+.player:hover
+{
+    padding: 2px 12px;
+    margin: 0 4px;
+}
+
+#adapter {
+    transition: all 2s linear;
+}
+
+.match {
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+
+.match:last-of-type {
+    border-bottom: 0;
+}
+
+.divider {
+    border-right: 6px solid #999;
+    text-align:left;
+}
+
+.social-networks {
+    border-bottom: 1px solid #999;
+    margin-bottom: 12px;
+}
+
+.footer-last-row {
+    border-top: 1px solid #999;
+    margin-top: 12px;
+}
+
+.menu-option {
+    border-bottom: 2px solid whitesmoke;
+    padding: 2px 8px;
+}
+
+.menu-option:hover {
+    border-bottom-color: #333;
+}
